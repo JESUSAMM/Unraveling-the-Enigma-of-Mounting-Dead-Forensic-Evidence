@@ -29,6 +29,4 @@ Splitted raw evidence, also known as segmented raw disk images, is a practice in
 - Keeping track of segmented images and maintaining their chain of custody can be more complex than working with a single raw image.
 - Care must be taken to ensure that no data is lost or altered during the segmentation process.
 
-### Tools for Working with Splitted Raw Evidence
 
-- Various file archiving tools can be used for segmentation, such as 7-Zip, WinRAR, or TAR.
