@@ -12,3 +12,5 @@ Our guide encompasses various aspects of mounting dead forensic evidence, such a
 This repository serves as a valuable resource for anyone navigating the challenging waters of digital forensics. Whether you're a newcomer looking to conquer your initial fears or an experienced investigator seeking to hone your skills, our mission is to equip you with the knowledge and tools required to handle dead forensic evidence effectively.
 
 Let's demystify the process of mounting dead forensic evidence together. Welcome to this journey of discovery, education, and empowerment in the fascinating realm of digital forensics.
+
+[Next Section](Evidence_Container_Types.md)
