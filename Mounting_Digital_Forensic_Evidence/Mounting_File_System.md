@@ -52,7 +52,7 @@ Depending on the file system used in the digital evidence you're examining, you'
 &nbsp;
 
 
-- Calculate the sector offset of the second partition: 2048 * 512 = 1048576
+- Calculate the sector offset of the first partition: 2048 * 512 = 1048576
 - Mount the first partition:
   ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/e848a436-f82e-4ba4-9eec-25aa9382bcaf)
    - See the content:
@@ -68,7 +68,7 @@ Depending on the file system used in the digital evidence you're examining, you'
 
 
 
-- Calculate the sector offset of the first partition: 206848 * 512 = 105906176
+- Calculate the sector offset of the second partition: 206848 * 512 = 105906176
 - Mount the second partition:
   ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/813b7396-378d-462e-a21a-0ed0c67485ce)
   - See the content:
