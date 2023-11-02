@@ -14,10 +14,10 @@ In this section, you'll find a summary of the four key procedures involved in th
 
   
 
-[**Mounting Bridge: Bridging the Gap to Digital Forensic Evidence**](https://www.notion.so/Mounting-Bridge-Bridging-the-Gap-to-Digital-Forensic-Evidence-7053569d8ae54182ac44192546809604?pvs=21)
+[**Mounting Bridge**](Mounting_Bridge.md)
 
-[**Know the Partition Table: Unlocking Storage Structures**](https://www.notion.so/Know-the-Partition-Table-Unlocking-Storage-Structures-b90424dca9574ac49f15afce747ff829?pvs=21)
+[**Know the Partition Table**](Partition_Table.md)
 
-[**Identifying the File System: Unlocking Data Structures**](https://www.notion.so/Identifying-the-File-System-Unlocking-Data-Structures-1420f00266cb4dcabdaa0ba29068ab05?pvs=21)
+[**Identifying the File System**](Identifying_File_System.md)
 
-[**Mounting the File System: Accessing Data for Analysis**](https://www.notion.so/Mounting-the-File-System-Accessing-Data-for-Analysis-cd5d92ab5ad64f79a3174ae3f04cd425?pvs=21)
+[**Mounting the File System**](Mounting_File_System.md)
