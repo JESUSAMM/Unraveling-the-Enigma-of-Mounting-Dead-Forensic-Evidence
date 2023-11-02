@@ -24,3 +24,10 @@ In this section, we will explore the usage of the **`mmls`** command, a powerful
 
 Here is something very important to notice, and it is that the `mmls` command will give us the sector of each partition. This is the number that we can locate at the start column. A sector is the smallest addressable unit on a storage device, such as a hard drive or SSD. It typically consists of 512 bytes of data, although there are variations (e.g., 4096-byte sectors) on some modern storage devices. The sector number represents the physical location on the storage medium where data is stored.
 
+### Example:
+
+- Run `mmls <container>`:
+  
+  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/a52b1e12-5756-428d-91f6-ef90893ba135)
+   - Here we can see that we have a privary table, 2 unallocated spaces and 2 partitions with NTFS / exFAT.
+   - The sector of the first partition is 2048 and the sector of the second is 206848
