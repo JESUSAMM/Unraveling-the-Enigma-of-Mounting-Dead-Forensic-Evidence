@@ -11,6 +11,9 @@ In this section, you'll find a summary of the four key procedures involved in th
 - **Know the File System:** Identifying the filesystem used within the selected partition.
 - **Mount the File System:** Mounting the partition's filesystem to access and analyze the data.
 
+
+  
+
 [**Mounting Bridge: Bridging the Gap to Digital Forensic Evidence**](https://www.notion.so/Mounting-Bridge-Bridging-the-Gap-to-Digital-Forensic-Evidence-7053569d8ae54182ac44192546809604?pvs=21)
 
 [**Know the Partition Table: Unlocking Storage Structures**](https://www.notion.so/Know-the-Partition-Table-Unlocking-Storage-Structures-b90424dca9574ac49f15afce747ff829?pvs=21)
