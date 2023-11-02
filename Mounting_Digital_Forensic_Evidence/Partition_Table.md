@@ -26,7 +26,7 @@ Here is something very important to notice, and it is that the `mmls` command wi
 
 ### Example:
 
-- Run `mmls <container>`:
+- Run `mmls <bridge>`:
 
   ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/c9acb8cc-29d2-4a40-a1a2-90c36cbecd83)
 
