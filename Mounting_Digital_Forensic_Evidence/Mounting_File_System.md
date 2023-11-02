@@ -43,12 +43,32 @@ Depending on the file system used in the digital evidence you're examining, you'
 - Create one directory for each partition:
   ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/6f5e8e42-d99b-421a-952d-affe956175d4)
 
+  &nbsp;
+&nbsp;
+&nbsp;
+
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+- Calculate the sector offset of the second partition: 2048 * 512 = 1048576
 - Mount the first partition:
   ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/e848a436-f82e-4ba4-9eec-25aa9382bcaf)
    - See the content:
   ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/82e73a1d-49f1-4ff1-ac98-49d4a1f2bdcd)
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
+
+
+
+- Calculate the sector offset of the first partition: 206848 * 512 = 105906176
 - Mount the second partition:
   ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/813b7396-378d-462e-a21a-0ed0c67485ce)
   - See the content:
