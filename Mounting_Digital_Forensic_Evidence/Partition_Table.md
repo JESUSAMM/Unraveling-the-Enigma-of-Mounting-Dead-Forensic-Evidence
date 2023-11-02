@@ -27,7 +27,9 @@ Here is something very important to notice, and it is that the `mmls` command wi
 ### Example:
 
 - Run `mmls <container>`:
-  
-  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/a52b1e12-5756-428d-91f6-ef90893ba135)
+
+  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/c9acb8cc-29d2-4a40-a1a2-90c36cbecd83)
+
+
    - Here we can see that we have a privary table, 2 unallocated spaces and 2 partitions with NTFS / exFAT.
    - The sector of the first partition is 2048 and the sector of the second is 206848
