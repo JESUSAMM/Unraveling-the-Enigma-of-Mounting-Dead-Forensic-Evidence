@@ -73,3 +73,19 @@ Depending on the file system used in the digital evidence you're examining, you'
   ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/813b7396-378d-462e-a21a-0ed0c67485ce)
   - See the content:
   ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/ae6819d0-6dab-4e48-8b80-d4d73df8aad3)
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+
+
+## Conclusion
+
+Congratulations, you've successfully completed the process of mounting your first piece of digital evidence! Remember that digital forensics can be a challenging field, and mastering it takes time and practice. Don't be discouraged by the initial complexity; with each new case and experience, you'll become more efficient and confident in your skills.
+
+Digital forensics is a journey of continuous learning, and the knowledge and expertise you've gained here are just the beginning. Keep exploring, keep practicing, and keep uncovering the secrets hidden within digital evidence. You're on the path to becoming a skilled digital forensic investigator!
+
