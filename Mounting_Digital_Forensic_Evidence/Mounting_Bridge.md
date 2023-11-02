@@ -37,12 +37,17 @@ Commands:
 - **splitted raw:** `affuse -o allow_other <evidence_path> <bridge_path>`
 - **vhd:** `vhdimount -o allow_other <evidence_path> <bridge_path>`
 
-  ### EXAMPLE:
+### EXAMPLE:
   - Create a directory where to mount the container.
+    ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/e6b78938-7126-4230-aa1a-f6e0bd488e14)
+
     
 
  -  Mount the container in the bridge directory.
-  
+  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/19b9e2c9-5b25-4c48-a609-16782d2744d8)
 
-- 
+
+ - You should see a file named ewf1.
+   ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/02e1f314-99c6-4362-851f-2ff775576b6a)
+
 
