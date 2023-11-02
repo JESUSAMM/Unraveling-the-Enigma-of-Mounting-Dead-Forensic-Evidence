@@ -35,6 +35,3 @@ VMDK (Virtual Machine Disk) and VHD (Virtual Hard Disk) evidence files are both 
 - Ensuring that VMDK and VHD files are correctly acquired and preserved is essential to maintain their integrity.
 - Selecting the right tools and techniques for analysis is crucial, depending on the virtualization platform.
 
-### Tools for Working with VMDK and VHD Evidence
-
-- Forensic software like Autopsy, FTK, and Volatility can assist in the analysis of both VMDK and VHD evidence files.
