@@ -15,4 +15,4 @@ Let's demystify the process of mounting dead forensic evidence together. Welcome
 
 [Evidence Container Types](Evidence_Container_Type/Introduction.md)
 
-[Mounting Digital Forensic Evidence](Mounting_Digital_Forensic_Evidence/Introduction.mc)
+[Mounting Digital Forensic Evidence](Mounting_Digital_Forensic_Evidence/Introduction.md)
