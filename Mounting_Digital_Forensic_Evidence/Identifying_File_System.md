@@ -17,7 +17,7 @@ Command:
 
 We will use a tool named fsstat that is going to show us the file sytem type of the partition. 
 
-With the sector offset in hand, you can now provide it as a parameter when using the **`fsstat`** command. This ensures that **`fsstat`** accurately locates and analyzes the file system within the evidence container.
+With the sector in hand, you can now provide it as a parameter when using the **`fsstat`** command. This ensures that **`fsstat`** accurately locates and analyzes the file system within the evidence container.
 
 `fsstat -o <sector> container`
 
