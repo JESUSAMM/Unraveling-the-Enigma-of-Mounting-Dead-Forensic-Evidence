@@ -36,3 +36,13 @@ Commands:
 - **vmdk:** `vmdkmount -X allow_root <evidence_path> <bridge_path>`
 - **splitted raw:** `affuse -o allow_other <evidence_path> <bridge_path>`
 - **vhd:** `vhdimount -o allow_other <evidence_path> <bridge_path>`
+
+  ### EXAMPLE:
+  - Create a directory where to mount the container.
+    
+
+ -  Mount the container in the bridge directory.
+  
+
+- 
+
