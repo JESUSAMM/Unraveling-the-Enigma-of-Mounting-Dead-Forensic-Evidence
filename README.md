@@ -17,4 +17,25 @@ Let's demystify the process of mounting dead forensic evidence together. Welcome
 
 [Mounting Digital Forensic Evidence](Mounting_Digital_Forensic_Evidence/Introduction.md)
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 At the heart of this guide, all examples and demonstrations focus on mounting the evidence from a data leakage case, which you can find in the [CFREDS Project - Data Leakage Case](https://cfreds-archive.nist.gov/data_leakage_case/data-leakage-case.html) Explore the case in detail by visiting the CFREDS Project for a real-world application of the concepts and techniques covered in this repository.
+
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+## Important Note
+
+This guide is intended to serve as a helpful reference for individuals working in the field of digital forensics. It is not a comprehensive bible of digital forensics, nor should it be considered the sole resource for your investigations.
+
+Digital forensics is a dynamic and ever-evolving field, and every case presents unique challenges. This project is born out of a desire to assist those who, like me, once grappled with the complexities of forensic evidence.
+
+If you find any recommendations or come across errors within this guide, please do not hesitate to reach out. This project can only grow stronger and more valuable with your input.
+
+Thank you for using this guide, and I hope it proves beneficial to your work. Enjoy your journey through the world of digital forensics.
