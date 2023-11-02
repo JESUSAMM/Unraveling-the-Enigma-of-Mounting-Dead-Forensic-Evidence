@@ -17,7 +17,7 @@ Partition tables contain essential information about how a storage device is org
 In this section, we will explore the usage of the **`mmls`** command, a powerful tool for digital forensics, to display the partition table of storage devices. **`mmls`** provides a quick and effective way to inspect and understand the structure of storage media, helping investigators identify and access the partitions crucial to their investigations. This command is an invaluable asset in the process of "Knowing the Partition Table," allowing forensic analysts to gain insights into the organization of storage media.
 
 **Command:**
-- mmls <path_of_container>
+- **`mmls <path_of_container>`**
 
 
 
