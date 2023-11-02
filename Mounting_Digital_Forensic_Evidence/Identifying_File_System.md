@@ -37,3 +37,11 @@ With the sector offset in hand, you can now provide it as a parameter when using
 `fsstat -o <sector_offset> container`
 
 `fsstat -o 512000 evidence_container`
+
+### Example: 
+
+Once we have the sectors of the partitions, we can now try to run the fsstat command to know the filesystem type.
+Remember, our sectors are 2048 and 206848 (we get them in the last module).
+![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/27733b53-9f58-452a-9cea-09eb184f75f9)
+
+
