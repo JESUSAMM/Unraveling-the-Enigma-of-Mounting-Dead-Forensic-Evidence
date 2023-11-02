@@ -16,3 +16,5 @@ Let's demystify the process of mounting dead forensic evidence together. Welcome
 [Evidence Container Types](Evidence_Container_Type/Introduction.md)
 
 [Mounting Digital Forensic Evidence](Mounting_Digital_Forensic_Evidence/Introduction.md)
+
+At the heart of this guide, all examples and demonstrations focus on mounting the evidence from a data leakage case, which you can find in the [CFREDS Project - Data Leakage Case](https://cfreds-archive.nist.gov/data_leakage_case/data-leakage-case.html) Explore the case in detail by visiting the CFREDS Project for a real-world application of the concepts and techniques covered in this repository.
