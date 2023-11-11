@@ -23,6 +23,11 @@ In this section, you'll find a summary of the four key procedures involved in th
 [**Mounting the File System**](Mounting_File_System.md)
 
 
----
-
 ## Mounting More Difficult Things
+Congratulations on navigating through the basics of mounting evidence! If you've followed our earlier guide, you now have a solid foundation in mounting straightforward scenarios. However, the digital forensics landscape often presents more intricate challenges.
+
+In this section, we'll delve into specific and nuanced scenarios, equipping you with the skills to tackle more complex evidence mounting tasks. From dealing with Windows drives secured with BitLocker encryption to handling Linux Logical Volume Manager (LVM) setups and encrypted partitions using cryptsetup, we'll guide you through these advanced mounting techniques.
+
+Prepare to elevate your digital forensic capabilities as we explore the intricacies of mounting evidence in diverse and challenging scenarios. Let's dive in!
+
+[**Mounting LVM**](Mounting_LVM.md)
