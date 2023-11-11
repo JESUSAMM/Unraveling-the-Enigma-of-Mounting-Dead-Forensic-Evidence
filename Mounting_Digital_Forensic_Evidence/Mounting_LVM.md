@@ -14,3 +14,5 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
 
 > **Note:** This section assumes that you are already acquainted with the fundamental steps of mounting evidence, including creating the bridge, identifying partitions, and understanding file systems. We won't reiterate these basics in the following explanations.
 
+
+
