@@ -21,3 +21,8 @@ In this section, you'll find a summary of the four key procedures involved in th
 [**Identifying the File System**](Identifying_File_System.md)
 
 [**Mounting the File System**](Mounting_File_System.md)
+
+
+---
+
+## Mounting More Difficult Things
