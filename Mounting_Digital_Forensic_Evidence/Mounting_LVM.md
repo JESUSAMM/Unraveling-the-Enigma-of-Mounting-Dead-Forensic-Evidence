@@ -46,7 +46,7 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
   -  In LVM systems, volume groups need to be activated before you can work with the logical volumes within them. The `vgchange` command facilitates this activation process.
     - `sudo vgchange -ay`
     -  > **Info:**  This command activates all volume groups on the system, allowing you to access and work with the logical volumes associated with these groups.
-
+      
       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/6730860c-68c3-4a3e-bd27-878bc7c02988)
 
 
