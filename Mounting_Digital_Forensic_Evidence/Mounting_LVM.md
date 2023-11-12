@@ -15,10 +15,19 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
 > **Note:** This section assumes that you are already acquainted with the fundamental steps of mounting evidence, including creating the bridge, identifying partitions, and understanding file systems. We won't reiterate these basics in the following explanations.
 > **Note 2:** This example will be running with a raw image, so you will not see any bridge step.
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 - **Step 1:**
   - Run the `mmls` command to list the partitions on the disk. This step helps us identify the partition we'll be working on.
     - `mmls disk_image.img`
         ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/0bae8a07-c6f4-40f7-8717-a3de4b7d96c8)
+
+&nbsp;
+&nbsp;
+&nbsp;
+
 
 - **Step 2:**
   - Run the `fsstat` command on each partition to identify the one that contains a Logical Volume Manager (LVM) structure. In this example, let's say it's Partition 3.
@@ -33,6 +42,10 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
        
        ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/90d92e88-12c2-4e97-9410-e4a5872b0514)
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 
  - **Step 3**
    - Now that we've identified the partition containing LVM structures, the next step is to set up a loop device using the `losetup` command. This is essential for accessing the partition as a block device.
@@ -41,6 +54,9 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
         
         ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/3fa0314d-d7df-4046-b918-b382a1f37bc3)
 
+&nbsp;
+&nbsp;
+&nbsp;
 
 - **Step 4**
   -  In LVM systems, volume groups need to be activated before you can work with the logical volumes within them. The `vgchange` command facilitates this activation process.
@@ -49,6 +65,9 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
 
        ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/0435611c-c626-40ac-9b74-19c35041907b)
 
+&nbsp;
+&nbsp;
+&nbsp;
       
 - **Step 5**
   - To gain insights into the LVM setup and configuration, you can use the following commands to display information about physical volumes, volume groups, and logical volumes.
@@ -57,12 +76,19 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
     - `sudo lvdisplay`
           ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/ac0d39f1-2e5b-4a77-a385-0e4b125edf81)
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 - **Step 6**
   -  Now that we have the necessary information about our LVM components, it's time to mount the logical volume.
   -  Use the following command to mount the logical volume:
     - `sudo mount -o ro,noexec /dev/[YourVolumeGroupName]/[YourLogicalVolumeName] /mnt/destination`
        ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/2bdd71e1-bc25-4f9a-b88a-22a4858fc132)
 
+&nbsp;
+&nbsp;
+&nbsp;
 
 - **END:**
   -  Once mounted, you can navigate to the mount point to access the contents of the logical volume.
