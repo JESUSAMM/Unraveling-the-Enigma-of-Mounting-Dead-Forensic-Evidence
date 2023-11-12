@@ -57,4 +57,17 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
     - `sudo lvdisplay`
           ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/ac0d39f1-2e5b-4a77-a385-0e4b125edf81)
 
-f
+- **Step 6**
+  -  Now that we have the necessary information about our LVM components, it's time to mount the logical volume.
+  -  Use the following command to mount the logical volume:
+    - `sudo mount /dev/[YourVolumeGroupName]/[YourLogicalVolumeName] /mnt/destination`
+       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/ed185020-4013-4dea-9980-1370b94129fd)
+
+
+- **END:**
+  -  Once mounted, you can navigate to the mount point to access the contents of the logical volume.
+      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/bb38a68d-862d-4309-9175-bed6c5a6ca1f)
+
+Congratulations! You have successfully mounted the logical volume and can now proceed with your forensic analysis or any necessary data extraction.
+
+
