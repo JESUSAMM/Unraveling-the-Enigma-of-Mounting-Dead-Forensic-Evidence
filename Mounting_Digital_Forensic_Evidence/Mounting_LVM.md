@@ -47,7 +47,7 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
     - `sudo vgchange -ay`
     -  > **Info:**  This command activates all volume groups on the system, allowing you to access and work with the logical volumes associated with these groups.
       
-      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/6730860c-68c3-4a3e-bd27-878bc7c02988)
+![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/91c9dda5-f65d-42fe-a5b7-cc3f33039fb7)
 
 
 
