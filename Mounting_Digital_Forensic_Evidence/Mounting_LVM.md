@@ -50,8 +50,10 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
        ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/0435611c-c626-40ac-9b74-19c35041907b)
 
       
-
-
-
-f
+- **Step 5**
+  - To gain insights into the LVM setup and configuration, you can use the following commands to display information about physical volumes, volume groups, and logical volumes.
+    - `sudo pvdisplay`
+    - `sudo vgdisplay`
+    - `sudo lvdisplay`
+          ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/ac0d39f1-2e5b-4a77-a385-0e4b125edf81)
 
