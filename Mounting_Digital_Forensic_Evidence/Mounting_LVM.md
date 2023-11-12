@@ -24,6 +24,7 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
   - Run the `fsstat` command on each partition to identify the one that contains a Logical Volume Manager (LVM) structure. In this example, let's say it's Partition 3.
     - **Note:** It's normal if the `fsstat` command returns an error when attempting to identify the file system on the suspected LVM partition. This is expected behavior as `fsstat` may not recognize the LVM structure. In fact, the error message could be an encouraging clue that you are heading in the right direction.
     - `fsstat -o 3780608 disk_image.img`
+      
        ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/f441ab22-a7e9-44fa-8655-d0450e1c715d)
 
  
