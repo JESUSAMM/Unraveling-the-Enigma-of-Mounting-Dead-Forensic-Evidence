@@ -15,9 +15,10 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
 > **Note:** This section assumes that you are already acquainted with the fundamental steps of mounting evidence, including creating the bridge, identifying partitions, and understanding file systems. We won't reiterate these basics in the following explanations.
 > **Note 2:** This example will be running with a raw image, so you will not see any bridge step.
 
-- Run the `mmls` command to list the partitions on the disk. This step helps us identify the partition we'll be working on.
-  - `mmls disk_image.img`
-    ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/0bae8a07-c6f4-40f7-8717-a3de4b7d96c8)
+- Step 1:
+  - Run the `mmls` command to list the partitions on the disk. This step helps us identify the partition we'll be working on.
+    - `mmls disk_image.img`
+        ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/0bae8a07-c6f4-40f7-8717-a3de4b7d96c8)
 
 - 
 
