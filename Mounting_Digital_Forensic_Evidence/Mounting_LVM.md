@@ -27,6 +27,10 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
       
        ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/f441ab22-a7e9-44fa-8655-d0450e1c715d)
 
+  - To further confirm that the partition contains LVM structures, attempt to mount it using the following command:
+    - `sudo mount -o ro,offset=<offset> /path/to/lvm_disk_image.dd /mnt/destination`
+    -  > **Info:** This command will fail, indicating that the system cannot recognize the LVM2_member file system. This is an additional confirmation that this is the right partition.
+
  
 
 
