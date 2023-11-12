@@ -60,8 +60,8 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
 - **Step 6**
   -  Now that we have the necessary information about our LVM components, it's time to mount the logical volume.
   -  Use the following command to mount the logical volume:
-    - `sudo mount /dev/[YourVolumeGroupName]/[YourLogicalVolumeName] /mnt/destination`
-       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/ed185020-4013-4dea-9980-1370b94129fd)
+    - `sudo mount -o ro,noexec /dev/[YourVolumeGroupName]/[YourLogicalVolumeName] /mnt/destination`
+       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/2bdd71e1-bc25-4f9a-b88a-22a4858fc132)
 
 
 - **END:**
