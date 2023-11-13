@@ -94,6 +94,10 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
   -  Once mounted, you can navigate to the mount point to access the contents of the logical volume.
       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/bb38a68d-862d-4309-9175-bed6c5a6ca1f)
 
+&nbsp;
+&nbsp;
+&nbsp;
+
 Congratulations! You have successfully mounted the logical volume and can now proceed with your forensic analysis or any necessary data extraction.
  
 
