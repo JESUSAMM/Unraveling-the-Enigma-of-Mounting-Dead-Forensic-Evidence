@@ -30,4 +30,12 @@ Let's delve into the complexities of BitLocker and explore the techniques to suc
   - Now that we have narrowed down the potential partition, let's utilize the `fsstat` command to identify the presence of BitLocker encryption within the selected partition.
      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/95498ef9-af59-4f6f-89a4-5e674de9f9ac)
 
+- Step 4:
+  -  To facilitate the analysis of the BitLocker-encrypted Windows drive, we need to decrypt it and create a second bridge without encryption. For this step, we are going to use the recovery key associated with the Windos drive. This key is essential for decrypting the drive.
+  -  Run the `bdemount` command, providing the necessary parameters to decrypt the BitLocker-encrypted partition and create a new bridge without encryption.
+    -  `bdemount -X allow_root -o <offset> -r <recovery_key> <img> <mnt>`
+       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/a401703e-4e2f-4788-9827-6e392ab23441)
+
+
+
  
