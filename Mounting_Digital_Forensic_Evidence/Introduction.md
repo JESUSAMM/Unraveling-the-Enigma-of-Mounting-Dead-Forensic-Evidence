@@ -31,3 +31,4 @@ In this section, we'll delve into specific and nuanced scenarios, equipping you 
 Prepare to elevate your digital forensic capabilities as we explore the intricacies of mounting evidence in diverse and challenging scenarios. Let's dive in!
 
 [**Mounting LVM**](Mounting_LVM.md)
+[**Mounting Windows with BitLocker**](Mounting_WindowsBitlocker.md)
