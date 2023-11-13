@@ -21,7 +21,7 @@ Let's demystify the process of mounting dead forensic evidence together. Welcome
 &nbsp;
 &nbsp;
 
-At the heart of this guide, all examples and demonstrations focus on mounting the evidence from a data leakage case, which you can find in the [CFREDS Project - Data Leakage Case](https://cfreds-archive.nist.gov/data_leakage_case/data-leakage-case.html) Explore the case in detail by visiting the CFREDS Project for a real-world application of the concepts and techniques covered in this repository.
+At the heart of this guide, most of the examples and demonstrations focus on mounting the evidence from a data leakage case, which you can find in the [CFREDS Project - Data Leakage Case](https://cfreds-archive.nist.gov/data_leakage_case/data-leakage-case.html) Explore the case in detail by visiting the CFREDS Project for a real-world application of the concepts and techniques covered in this repository.
 
 &nbsp;
 &nbsp;
