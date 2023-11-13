@@ -37,5 +37,23 @@ Let's delve into the complexities of BitLocker and explore the techniques to suc
        ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/a401703e-4e2f-4788-9827-6e392ab23441)
 
 
+- Step 5:
+  - Now that we have successfully decrypted the BitLocker-encrypted partition and created a new bridge without encryption, we can proceed to mount the logical volume within the decrypted bridge.
+  - Use the following command to mount the partition:
+  - `mount -o ro,loop,noexec,show_sys_files,streams_interface=windows,offset=0 <bde1_file> <mnt>`
+     ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/614dede8-47ce-484e-826e-157e653a309a)
+
+
+- End:
+  - Once mounted, you can navigate to the mount point to access the contents.
+    - ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/feaf3b42-a9fc-498a-a73e-a57047d2710b)
+
+
+Congratulations! You've reached the end of the BitLocker module, successfully decrypting and mounting the evidence. 
+
+
+
+
+
 
  
