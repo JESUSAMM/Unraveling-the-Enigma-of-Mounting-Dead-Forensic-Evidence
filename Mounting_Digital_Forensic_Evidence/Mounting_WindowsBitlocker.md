@@ -20,3 +20,7 @@ Let's delve into the complexities of BitLocker and explore the techniques to suc
   - Before delving into the mounting process, it's crucial to establish a bridge that will serve as the foundation for accessing the Encase evidence.
       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/a56e8b45-dacb-44a6-b7cc-4a2f2511d29a)
 
+
+- Step 2:
+  - Now that we have the bridge established for the Encase evidence, the next step is to inspect the partition table to identify the relevant partition.
+  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/030277fa-1000-4218-bb31-8c3bd1ee9efe)
