@@ -23,6 +23,7 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
   - Run the `cryptsetup` command to decrypt the partition.
     -  `cryptsetup luksOpen <disk_img> encrypted_volume`
     -  > **Info:**    This command prompts for the LUKS passphrase or keyfile, effectively unlocking the encrypted partition.
+       
       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/91e1190f-688a-4fdc-9947-fa39170fed45)
 
 
