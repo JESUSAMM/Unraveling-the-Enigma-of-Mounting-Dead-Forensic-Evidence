@@ -47,5 +47,28 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
       
       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/441afae4-12b7-41af-b098-8b60e8dd4065)
 
- 
+
+- Step 5:
+  - Display information about physical volumes, volume groups, and logical volumes with the following commands:
+    - `sudo pvdisplay`
+    - `sudo vgdisplay`
+    - `sudo lvdisplay`
+      
+       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/bcaa4d57-ade2-4fa3-84ff-5c7849cbb5be)
+
+- Step 6:
+  - Mount the logical volume:
+    - `sudo mount -o ro,noexec /dev/[YourVolumeGroupName]/[YourLogicalVolumeName] /mnt/destination`
+
+      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/196c7562-076f-4b79-b3ec-e23d9a11d8cd)
+
+
+        
+- **END:**
+  -  Once mounted, you can navigate to the mount point to access the contents of the logical volume.
+       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/2df9930a-b624-4c0d-ba10-e4c9dc5727ec)
+
+
+Congratulations! You have successfully activated the LVM volume group and mounted the logical volume within the LUKS-encrypted partition. You are now ready to proceed with your forensic analysis or any required data extraction from the decrypted and mounted file system.
+
 
