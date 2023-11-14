@@ -47,5 +47,5 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
       
       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/441afae4-12b7-41af-b098-8b60e8dd4065)
 
-
+ 
 
