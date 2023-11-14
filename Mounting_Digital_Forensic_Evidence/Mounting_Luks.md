@@ -36,6 +36,8 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
 
 - Step 3:
   - Initially, when trying to mount the decrypted partition as a standard ext4 filesystem, it becomes apparent that the partition is part of an LVM structure.
+      > **Note:** If the partition had been a standard ext4 filesystem, we would have concluded the process here, mounting it as usual without the need for additional LVM steps.
+
      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/74dde9c3-b63b-4a3b-b80f-609d67292076)
 
 
