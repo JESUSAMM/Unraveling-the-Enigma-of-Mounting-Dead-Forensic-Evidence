@@ -34,3 +34,9 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
            ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/9e42d361-454f-43fd-83fd-8ab99fb9c4ab)
 
 
+- Step 3:
+  - Initially, when trying to mount the decrypted partition as a standard ext4 filesystem, it becomes apparent that the partition is part of an LVM structure.
+     ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/74dde9c3-b63b-4a3b-b80f-609d67292076)
+
+
+
