@@ -26,4 +26,11 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
        
       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/91e1190f-688a-4fdc-9947-fa39170fed45)
 
+- Step 2:
+  - Confirm the successful decryption by checking for the decrypted volume using `fdisk`:
+    - `fdisk -l | grep /dev/mapper/encrypted_volume`
+    -    The output should indicate the decrypted volume under the `/dev/mapper/` directory.
+      
+           ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/9e42d361-454f-43fd-83fd-8ab99fb9c4ab)
+
 
