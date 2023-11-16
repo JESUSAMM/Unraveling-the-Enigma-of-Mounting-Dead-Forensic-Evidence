@@ -27,7 +27,6 @@ Raw evidence, often referred to as a raw disk image, is a fundamental form of ev
 
 - Raw evidence can be large in size, requiring ample storage space.
 - Processing raw images can be time-consuming, especially when dealing with extensive storage media.
-- Ensuring the chain of custody and maintaining the integrity of raw evidence is crucial throughout the investigation.
 
 ## Tools for Working with Raw Evidence
 
