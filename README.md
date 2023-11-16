@@ -1,7 +1,7 @@
 
 ## Introduction
 
-In the ever-evolving realm of cybersecurity, one of the most daunting tasks for a digital forensics investigator is the mounting of dead forensic evidence. The mere thought of handling critical evidence, the cornerstone of any investigation, can be an intimidating prospect for both seasoned professionals and newcomers. The stakes are high, and the margin for error is slim, making it crucial to understand the intricate process of mounting digital evidence correctly.
+In the ever-evolving realm of cybersecurity, one of the most daunting tasks for a digital forensics investigator is the mounting of dead forensic evidence. The mere thought of handling critical evidence can be an intimidating prospect for both seasoned professionals and newcomers. The stakes are high, and the margin for error is slim, making it crucial to understand the intricate process of mounting digital evidence correctly.
 
 I vividly recall my own initial apprehension when I entered the world of digital forensics. The idea of working with sensitive evidence in a complex digital landscape seemed like an insurmountable challenge. However, I soon realized that knowledge and a systematic approach could demystify this intimidating process. This realization inspired me to create this guide, aimed at demystifying the art of mounting dead forensic evidence.
 
