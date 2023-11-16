@@ -1,8 +1,5 @@
 # Splitted Raw Evidence
 
----
-
-## Splitted Raw Evidence
 
 ### Overview
 Splitted raw evidence, also known as segmented raw disk images, is a practice in digital forensics where a large raw disk image is divided into smaller segments. This segmentation can facilitate storage, sharing, and analysis of the evidence.
