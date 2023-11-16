@@ -16,12 +16,6 @@ The Mounting Bridge is essentially a directory – a central hub within your dig
 
 The need for a Mounting Bridge arises from the diverse formats in which digital forensic evidence can be presented. Each evidence container, whether it's a raw disk image, a segmented raw image, or a proprietary format, requires a specific approach for access and analysis. This bridge simplifies the process by creating a uniform platform for handling these containers.
 
-By using a Mounting Bridge, digital forensic investigators can achieve several critical goals:
-
-- **Data Preservation:** It ensures that the original evidence remains unaltered throughout the analysis process, crucial for maintaining its integrity in legal proceedings.
-- **Streamlined Workflow:** Having a designated location for mounting evidence containers reduces the complexity of accessing and analyzing various formats, making the investigative workflow more efficient.
-- **Data Accessibility:** It provides a consistent interface for investigators to interact with evidence containers, regardless of their original format.
-
 In the following sections of this directory, we will explore the step-by-step process of creating a Mounting Bridge, mounting different types of evidence containers within it, and preparing the evidence for further examination. By understanding the importance and functionality of this bridge, you will be well-equipped to embark on your digital forensic journey, bridging the gap between evidence and insight.
 
 Welcome to the world of the Mounting Bridge, where digital forensic investigations become more accessible and structured.
