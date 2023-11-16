@@ -1,9 +1,6 @@
 # EnCase Evidence
 
 ---
-
-## EnCase Evidence
-
 ### Overview
 The EnCase Evidence format, commonly known as E01, is a proprietary format used for digital forensic investigations. It's a widely accepted format, but investigators often need access to EnCase software for full compatibility.
 
