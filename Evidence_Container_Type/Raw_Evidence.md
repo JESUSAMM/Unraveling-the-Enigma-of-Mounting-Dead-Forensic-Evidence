@@ -32,3 +32,4 @@ Raw evidence, often referred to as a raw disk image, is a fundamental form of ev
 
 - **dd (Linux)**: A command-line utility for creating bit-for-bit copies of devices.
 - **FTK Imager (Windows)**: A user-friendly tool for creating forensic disk images.
+ 
