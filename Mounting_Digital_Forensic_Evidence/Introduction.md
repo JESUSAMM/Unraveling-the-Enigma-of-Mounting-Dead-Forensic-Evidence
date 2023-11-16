@@ -2,7 +2,6 @@
 
 ---
 
-## Mounting Digital Forensic Evidence
 
 In this section, you'll find a summary of the four key procedures involved in the process of mounting digital forensic evidence. Each procedure is explained in detail in its respective subdirectory.
 
