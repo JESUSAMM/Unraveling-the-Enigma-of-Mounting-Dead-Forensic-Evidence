@@ -39,7 +39,7 @@ Depending on the file system used in the digital evidence you're examining, you'
 - **Others:** `sudo mount -o ro,offset=<offset>,noexe,loop <img> <dest>`
 
   Flag:
-  - **'- o'** Indicates options for mounting the filesystem.
+  - **`- o`** Indicates options for mounting the filesystem.
 
 ### Example:
 
