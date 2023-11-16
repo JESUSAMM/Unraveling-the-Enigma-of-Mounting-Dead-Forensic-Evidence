@@ -65,7 +65,7 @@ Depending on the file system used in the digital evidence you're examining, you'
 
 &nbsp;
 &nbsp;
-&nbsp;
+&nbsp; 
 
 
 - Calculate the sector offset of the first partition: 2048 * 512 = 1048576
