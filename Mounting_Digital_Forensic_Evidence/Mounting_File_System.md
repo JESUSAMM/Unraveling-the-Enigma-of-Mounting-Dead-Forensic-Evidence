@@ -43,14 +43,14 @@ Depending on the file system used in the digital evidence you're examining, you'
  
   Options:
   - **`ro`**: Mounts the filesystem in read-only mode.
-- **`noexec`**: Prevents execution of binaries on the mounted filesystem.
-- **`loop`**: Associates the file with a loop device.
-- **`offset=<offset>`**: Specifies the byte offset where the filesystem starts in the image file.
-- **`show_sys_files`**: Displays system files (specific to NTFS).
-- **`streams_interface=windows`**: Allows access to named data streams in a manner compatible with Windows (specific to NTFS).
-- **`sizelimit=<partsize>`**: Sets the size limit for the partition (specific to HFS, HFS+).
-- **`noload`**: Avoids loading the journal (specific to EXT3, EXT4).
-- **`norecovery`**: Skips log recovery during mounting (specific to XFS).
+  - **`noexec`**: Prevents execution of binaries on the mounted filesystem.
+  - **`loop`**: Associates the file with a loop device.
+  - **`offset=<offset>`**: Specifies the byte offset where the filesystem starts in the image file.
+  - **`show_sys_files`**: Displays system files (specific to NTFS).
+  - **`streams_interface=windows`**: Allows access to named data streams in a manner compatible with Windows (specific to NTFS).
+  - **`sizelimit=<partsize>`**: Sets the size limit for the partition (specific to HFS, HFS+).
+  - **`noload`**: Avoids loading the journal (specific to EXT3, EXT4).
+  - **`norecovery`**: Skips log recovery during mounting (specific to XFS).
 
   
 
