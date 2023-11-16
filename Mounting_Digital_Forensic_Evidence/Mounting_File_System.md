@@ -38,6 +38,10 @@ Depending on the file system used in the digital evidence you're examining, you'
 - **XFS:** `sudo mount -o ro,offset=<offset>,norecovery <img> <dest>`
 - **Others:** `sudo mount -o ro,offset=<offset>,noexe,loop <img> <dest>`
 
+&nbsp;
+&nbsp;
+&nbsp; 
+
   Flag:
   - **`- o`** Indicates options for mounting the filesystem.
  
@@ -52,6 +56,9 @@ Depending on the file system used in the digital evidence you're examining, you'
   - **`noload`**: Avoids loading the journal (specific to EXT3, EXT4).
   - **`norecovery`**: Skips log recovery during mounting (specific to XFS).
 
+&nbsp;
+&nbsp;
+&nbsp; 
   
 
 ### Example:
