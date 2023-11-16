@@ -34,3 +34,4 @@ Here is something very important to notice, and it is that the `mmls` command wi
    - Here we can see that we have 2 unallocated spaces and 2 partitions with NTFS / exFAT.
    - The sector of the first partition is 2048 and the sector of the second is 206848
  
+ 
