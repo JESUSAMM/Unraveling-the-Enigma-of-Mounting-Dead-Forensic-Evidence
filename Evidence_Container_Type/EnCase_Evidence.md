@@ -26,3 +26,4 @@ The EnCase Evidence format, commonly known as E01, is a proprietary format used 
 - EnCase Forensic software is the primary tool for creating, analyzing, and managing EnCase Evidence files. However, it's important to note that there are alternative options available. For example, FTK Imager, a digital forensics tool developed by AccessData, provides the capability to create and work with split E01 files, offering flexibility for forensic professionals to handle this format without the necessity of the EnCase software suite.
 
 - FTK Imager allows for the creation of split E01 files, making it more accessible for forensic analysts to work with large datasets or share evidence in this format.
+ 
