@@ -26,7 +26,8 @@ Let's delve into the complexities of BitLocker and explore the techniques to suc
 
 - Step 1:
   - Before delving into the mounting process, it's crucial to establish a bridge that will serve as the foundation for accessing the Encase evidence.
-      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/a56e8b45-dacb-44a6-b7cc-4a2f2511d29a)
+      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/80853281-2be7-4ff2-8fbe-94de19bf3a80)
+
 
 &nbsp;
 &nbsp;
@@ -34,12 +35,13 @@ Let's delve into the complexities of BitLocker and explore the techniques to suc
 
 - Step 2:
   - Now that we have the bridge established for the Encase evidence, the next step is to inspect the partition table to identify the relevant partition.
-  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/030277fa-1000-4218-bb31-8c3bd1ee9efe)
+  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/ccf0102a-dcaf-4845-9475-5a23bd52eb69)
 
 
 - Step 3:
   - Now that we have narrowed down the potential partition, let's utilize the `fsstat` command to identify the presence of BitLocker encryption within the selected partition.
-     ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/95498ef9-af59-4f6f-89a4-5e674de9f9ac)
+    ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/a714f3fa-edd0-4c47-a46e-4ec19167daa9)
+
 
 &nbsp;
 &nbsp;
@@ -49,7 +51,8 @@ Let's delve into the complexities of BitLocker and explore the techniques to suc
   -  To facilitate the analysis of the BitLocker-encrypted Windows drive, we need to decrypt it and create a second bridge without encryption. For this step, we are going to use the recovery key associated with the Windows drive. This key is essential for decrypting the drive.
   -  Run the `bdemount` command, providing the necessary parameters to decrypt the BitLocker-encrypted partition and create a new bridge without encryption.
       -  `bdemount -X allow_root -o <offset> -r <recovery_key> <img> <mnt>`
-       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/a401703e-4e2f-4788-9827-6e392ab23441)
+      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/f8429c7c-a392-4c7b-bb7d-95200005f5e4)
+
 
 &nbsp;
 &nbsp;
@@ -59,7 +62,8 @@ Let's delve into the complexities of BitLocker and explore the techniques to suc
   - Now that we have successfully decrypted the BitLocker-encrypted partition and created a new bridge without encryption, we can proceed to mount the logical volume within the decrypted bridge.
   - Use the following command to mount the partition:
   - `mount -o ro,loop,noexec,show_sys_files,streams_interface=windows,offset=0 <bde1_file> <mnt>`
-     ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/614dede8-47ce-484e-826e-157e653a309a)
+     ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/61f59ab6-c97d-40fc-96be-dd690e14a811)
+
 
 &nbsp;
 &nbsp;
@@ -67,7 +71,8 @@ Let's delve into the complexities of BitLocker and explore the techniques to suc
 
 - End:
   - Once mounted, you can navigate to the mount point to access the contents.
-    - ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/feaf3b42-a9fc-498a-a73e-a57047d2710b)
+    - ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/02f24d59-c5fa-4c70-8807-4315218df6a4)
+
 
 &nbsp;
 &nbsp;
