@@ -33,7 +33,7 @@ Commands:
 
 ### EXAMPLE:
   - Create a directory where to mount the container.
-    ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/e6b78938-7126-4230-aa1a-f6e0bd488e14)
+    ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/b55acaf3-a84f-4184-95b5-5d3ba3f9e4c8)
 
     
 
