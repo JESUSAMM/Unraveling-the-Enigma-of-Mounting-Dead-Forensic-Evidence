@@ -13,7 +13,7 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
 > **Note 2:** This example will be running with a raw image of the partition and not of the disk.
 
 &nbsp;
-&nbsp;
+&nbsp; 
 &nbsp;
 
 > **Note:** In this section, we won't be utilizing commands like `mmls` or `fsstat` because our evidence pertains to a specific partition, not an entire disk. These commands are designed for analyzing disk structures and file systems on complete disks. Instead, we'll focus on tools and techniques more suited for the specific file system within the partition for effective analysis.
