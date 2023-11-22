@@ -41,6 +41,6 @@ Remember, our sectors are 2048 and 206848 (we get them in the last module).
       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/11cf92aa-5bc3-4161-a0b5-ed637129cab3)
 
    - And again, we found that the file system is NTFS
-
+ 
   
 
