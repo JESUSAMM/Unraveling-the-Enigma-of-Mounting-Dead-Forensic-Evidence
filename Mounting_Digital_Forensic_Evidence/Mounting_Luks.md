@@ -28,7 +28,8 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
     -  `cryptsetup luksOpen <disk_img> encrypted_volume`
     -  > **Info:**    This command prompts for the LUKS passphrase or keyfile, effectively unlocking the encrypted partition.
        
-      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/91e1190f-688a-4fdc-9947-fa39170fed45)
+      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/6a069824-f7cb-4871-ad46-dbe9f9aa5cc8)
+
 
 &nbsp;
 &nbsp;
@@ -40,7 +41,8 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
     - `fdisk -l | grep /dev/mapper/encrypted_volume`
     -    The output should indicate the decrypted volume under the `/dev/mapper/` directory.
       
-           ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/9e42d361-454f-43fd-83fd-8ab99fb9c4ab)
+           ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/c18b852d-c8bd-49ab-95a7-f5bd06d40b76)
+
 
 &nbsp;
 &nbsp;
@@ -51,7 +53,8 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
   - Initially, when trying to mount the decrypted partition as a standard ext4 filesystem, it becomes apparent that the partition is part of an LVM structure.
       > **Info:** If the partition had been a standard ext4 filesystem, we would have concluded the process here, mounting it as usual without the need for additional LVM steps.
 
-     ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/74dde9c3-b63b-4a3b-b80f-609d67292076)
+     ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/2cddd0c4-4dfd-4582-b396-78294e2a61aa)
+
 
 &nbsp;
 &nbsp;
@@ -63,7 +66,8 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
     - `vgcange -ay`
       > **Info:**  The luksOpen command not only decrypts the LUKS-encrypted partition but also makes the decrypted partition available as a device under /dev/mapper/. Once this is done, the LVM volume group associated with that decrypted partition becomes active, allowing you to access the logical volumes within it.
       
-      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/441afae4-12b7-41af-b098-8b60e8dd4065)
+      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/671572aa-799e-4720-b091-8e6a89f366bb)
+
 
 &nbsp;
 &nbsp;
@@ -76,7 +80,7 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
     - `sudo vgdisplay`
     - `sudo lvdisplay`
       
-       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/bcaa4d57-ade2-4fa3-84ff-5c7849cbb5be)
+       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/febed095-d0bb-4de7-b8df-3a47cfcfe0b3)
 
 &nbsp;
 &nbsp;
@@ -87,7 +91,7 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
   - Mount the logical volume:
     - `sudo mount -o ro,noexec /dev/[YourVolumeGroupName]/[YourLogicalVolumeName] /mnt/destination`
 
-      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/196c7562-076f-4b79-b3ec-e23d9a11d8cd)
+     ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/aa48296e-9538-4f8e-9ed3-29851e60a8b2)
 
 &nbsp;
 &nbsp;
@@ -97,7 +101,7 @@ As we delve into the intricacies of mounting LUKS-encrypted drives, this section
         
 - **END:**
   -  Once mounted, you can navigate to the mount point to access the contents of the logical volume.
-       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/2df9930a-b624-4c0d-ba10-e4c9dc5727ec)
+      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/6ddfb830-ffbf-4db4-8676-55173946666c)
 
 &nbsp;
 &nbsp;
