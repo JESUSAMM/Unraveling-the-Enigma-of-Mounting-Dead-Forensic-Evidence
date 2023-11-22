@@ -22,7 +22,7 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
 - **Step 1:**
   - Run the `mmls` command to list the partitions on the disk. This step helps us identify the partition we'll be working on.
     - `mmls disk_image.img`
-        ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/0bae8a07-c6f4-40f7-8717-a3de4b7d96c8)
+       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/af103c4a-acf4-4daf-b7b0-38828fa521c5)
 
 &nbsp;
 &nbsp;
@@ -34,13 +34,14 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
     - > **Info:** It's normal if the `fsstat` command returns an error when attempting to identify the file system on the suspected LVM partition. This is expected behavior as `fsstat` may not recognize the LVM structure. In fact, the error message could be an encouraging clue that you are heading in the right direction.
     - `fsstat -o 3780608 disk_image.img`
       
-       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/f441ab22-a7e9-44fa-8655-d0450e1c715d)
+      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/3a8098c5-a290-4e42-8789-752fca32abbc)
+
 
   - To further confirm that the partition contains LVM structures, attempt to mount it using the following command:
     - `sudo mount -o ro,offset=<offset> /path/to/lvm_disk_image.dd /mnt/destination`
     -  > **Info:** This command will fail, indicating that the system cannot recognize the LVM2_member file system. This is an additional confirmation that this is the right partition.
        
-       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/90d92e88-12c2-4e97-9410-e4a5872b0514)
+       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/cc9ae4b4-09c1-4198-af25-4115dfbb1e8e)
 
 &nbsp;
 &nbsp;
@@ -52,7 +53,7 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
      - `sudo losetup --find --show --offset=<offset> /path/to/disk_image.img`
      -  > **Info:** This command creates a loop device and associates it with the specified partition in the disk image.
         
-        ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/3fa0314d-d7df-4046-b918-b382a1f37bc3)
+        ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/ddd53808-16a9-46a5-aade-72da83302d0c)
 
 &nbsp;
 &nbsp;
@@ -63,7 +64,8 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
     - `sudo vgchange -ay`
     -  > **Info:**  This command activates all volume groups on the system, allowing you to access and work with the logical volumes associated with these groups.
 
-       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/0435611c-c626-40ac-9b74-19c35041907b)
+       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/96f2cc69-ced5-4a73-ba1c-aaeb49fa3e00)
+
 
 &nbsp;
 &nbsp;
@@ -74,7 +76,7 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
     - `sudo pvdisplay`
     - `sudo vgdisplay`
     - `sudo lvdisplay`
-          ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/ac0d39f1-2e5b-4a77-a385-0e4b125edf81)
+          ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/a66d33a3-93cd-4c07-ae1e-f23973cd1250)
 
 &nbsp;
 &nbsp;
@@ -84,7 +86,8 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
   -  Now that we have the necessary information about our LVM components, it's time to mount the logical volume.
   -  Use the following command to mount the logical volume:
     - `sudo mount -o ro,noexec /dev/[YourVolumeGroupName]/[YourLogicalVolumeName] /mnt/destination`
-       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/2bdd71e1-bc25-4f9a-b88a-22a4858fc132)
+      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/2d27808f-1462-46bf-810e-ff03d9495e2f)
+
 
 &nbsp;
 &nbsp;
@@ -92,7 +95,8 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
 
 - **END:**
   -  Once mounted, you can navigate to the mount point to access the contents of the logical volume.
-      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/bb38a68d-862d-4309-9175-bed6c5a6ca1f)
+      ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/b7511f76-dfbf-40c1-980a-797f45fad536)
+
 
 &nbsp;
 &nbsp;
