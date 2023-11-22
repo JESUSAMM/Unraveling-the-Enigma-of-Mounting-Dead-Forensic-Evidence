@@ -38,10 +38,9 @@ Commands:
     
 
  -  Mount the container in the bridge directory.
-  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/19b9e2c9-5b25-4c48-a609-16782d2744d8)
-
+    ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/8e083ed6-1eda-4d20-8eef-d3b0fc34e01c)
 
  - You should see a file named ewf1.
-   ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/02e1f314-99c6-4362-851f-2ff775576b6a)
+  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/4a6e6005-2758-4513-a734-8423a4041418)
 
  
