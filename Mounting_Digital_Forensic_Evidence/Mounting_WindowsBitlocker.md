@@ -4,7 +4,7 @@
 In the ever-evolving landscape of digital forensics, encountering Windows drives protected by BitLocker encryption is a common challenge. BitLocker, a disk encryption program included with Microsoft Windows, adds a layer of security to protect sensitive data on drives. As an investigator, understanding how to mount and analyze BitLocker-encrypted drives is a valuable skill in today's corporate environments where BitLocker is often employed as a security standard.
 
 &nbsp;
-&nbsp;
+&nbsp; 
 &nbsp;
 
 ### BitLocker Overview
