@@ -64,7 +64,8 @@ Depending on the file system used in the digital evidence you're examining, you'
 ### Example:
 
 - Create one directory for each partition:
-  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/6f5e8e42-d99b-421a-952d-affe956175d4)
+  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/b058f394-16f9-474e-a50c-5d150633d7a0)
+
 
   &nbsp;
 &nbsp;
@@ -77,9 +78,11 @@ Depending on the file system used in the digital evidence you're examining, you'
 
 - Calculate the sector offset of the first partition: 2048 * 512 = 1048576
 - Mount the first partition:
-  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/e848a436-f82e-4ba4-9eec-25aa9382bcaf)
+  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/73621c8c-421b-42c7-b20a-198b8d780662)
+
    - See the content:
-  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/82e73a1d-49f1-4ff1-ac98-49d4a1f2bdcd)
+  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/0566fa5b-2304-4ce2-a37e-8e9a7ea58b6f)
+
 
 &nbsp;
 &nbsp;
@@ -93,9 +96,10 @@ Depending on the file system used in the digital evidence you're examining, you'
 
 - Calculate the sector offset of the second partition: 206848 * 512 = 105906176
 - Mount the second partition:
-  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/813b7396-378d-462e-a21a-0ed0c67485ce)
+  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/df87c866-cf3b-4e6c-829c-daade14e10db)
+
   - See the content:
-  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/ae6819d0-6dab-4e48-8b80-d4d73df8aad3)
+  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/daaf6a6a-624b-44d4-af56-0dc90db8e8a1)
 
 &nbsp;
 &nbsp;
