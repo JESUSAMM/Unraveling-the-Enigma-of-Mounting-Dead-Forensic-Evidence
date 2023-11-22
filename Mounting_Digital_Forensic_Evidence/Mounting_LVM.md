@@ -76,7 +76,9 @@ Let's embark on a journey to comprehend and effectively mount evidence within Lo
     - `sudo pvdisplay`
     - `sudo vgdisplay`
     - `sudo lvdisplay`
-          ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/a66d33a3-93cd-4c07-ae1e-f23973cd1250)
+   
+      
+       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/a66d33a3-93cd-4c07-ae1e-f23973cd1250)
 
 &nbsp;
 &nbsp;
