@@ -42,6 +42,7 @@ Let's delve into the complexities of BitLocker and explore the techniques to suc
 
 - Step 3:
   - Now that we have narrowed down the potential partition, let's utilize the `fsstat` command to identify the presence of BitLocker encryption within the selected partition.
+    
     ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/a714f3fa-edd0-4c47-a46e-4ec19167daa9)
 
 
