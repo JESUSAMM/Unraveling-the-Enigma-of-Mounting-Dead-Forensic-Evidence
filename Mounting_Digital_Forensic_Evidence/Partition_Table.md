@@ -28,7 +28,7 @@ Here is something very important to notice, and it is that the `mmls` command wi
 
 - Run `mmls <bridge>`:
 
-  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/c9acb8cc-29d2-4a40-a1a2-90c36cbecd83)
+  ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/abcb7259-9145-4183-9bec-fbfe6cf41e20)
 
 
    - Here we can see that we have 2 unallocated spaces and 2 partitions with NTFS / exFAT.
