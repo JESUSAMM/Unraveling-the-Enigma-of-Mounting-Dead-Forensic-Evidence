@@ -36,6 +36,7 @@ Let's delve into the complexities of BitLocker and explore the techniques to suc
 
 - Step 2:
   - Now that we have the bridge established for the Encase evidence, the next step is to inspect the partition table to identify the relevant partition.
+    
   ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/ccf0102a-dcaf-4845-9475-5a23bd52eb69)
 
 
