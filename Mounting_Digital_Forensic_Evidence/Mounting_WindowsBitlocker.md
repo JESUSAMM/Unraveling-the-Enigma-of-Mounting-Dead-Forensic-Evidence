@@ -26,6 +26,7 @@ Let's delve into the complexities of BitLocker and explore the techniques to suc
 
 - Step 1:
   - Before delving into the mounting process, it's crucial to establish a bridge that will serve as the foundation for accessing the Encase evidence.
+    
       ![image](https://github.com/JESUSAMM/Unraveling-the-Enigma-of-Mounting-Dead-Forensic-Evidence/assets/149633912/80853281-2be7-4ff2-8fbe-94de19bf3a80)
 
 
